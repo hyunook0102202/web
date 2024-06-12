@@ -1,0 +1,39 @@
+/* 동탄 바우2 */
+/* 배경 색깔 */
+body {
+    background-color: gray;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* 바우 사진 */
+.bow img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.intro {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.intro p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.sleep > img {
+    width: 350px;
+    height: 350px;
+}

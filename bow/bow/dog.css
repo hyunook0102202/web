@@ -1,0 +1,57 @@
+/* 유기견 입양 정보 */
+body {
+    background-color: gray;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dog img {
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.font_bold {
+    font-weight: bold;
+}
+
+.font_center {
+    text-align: center;
+}
+
+.font_big {
+    font-size: 1em;
+}
+
+.font_italic {
+    font-style: italic;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.nation {
+    margin-left: 200px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(9, 172, 150);
+    border: 10px solid;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nation > a {
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

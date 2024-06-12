@@ -1,0 +1,67 @@
+/* 동탄바우 메인페이지 */
+body {
+    background-color: gray;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.button1 {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.button1 a {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.button1 a:hover {
+    background-color: #0f1ea7;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.intro {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.bow img {
+    width: 500px;
+    height: auto;
+}
+
+.bow1 img {
+    max-width: 500px;
+    max-height: 500px;
+    position: bottom;
+}

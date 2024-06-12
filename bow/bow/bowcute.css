@@ -1,0 +1,55 @@
+/* 바우의 일상 */
+body {
+    background-color: gray;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cute > img {
+    width: 300px;
+    height: auto;
+}
+
+.font_bold {
+    font-weight: bold;
+}
+
+.font_big {
+    font-size: 2em;
+}
+
+.font_center {
+    text-align: center;
+}
+
+.font_italic {
+    font-style: italic;
+}
+
+.hyun {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.hyun > img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.insta {
+    width: 150px;
+    height: 70px;
+    background-color: rgb(139, 15, 123);
+    border-radius: 30px;
+    border: 10px solid;
+}
+
+.insta > a {
+    display: block;
+    line-height: 70px;
+}
