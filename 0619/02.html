@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeobject(){
+            //h1 태그명읠 갖는 요소 객체를 배열 형태로 반환해준다
+            let objs=document.querySelectorAll("h1");
+            for(let i=0; i<objs.length;i++)
+            {
+                
+            }
+                 let obj=document.getElementById("campus");
+                  objs[i].style.color="yellow";
+                  obj.style.backgroundColor="black";
+                  obj.innerHTML='seoul jungsu campus';
+        }
+    </script>
+</head>
+<bod onload="changeobject">
+    <h1>한국 폴리텍대학</h1>
+    <h1 id="campus">인공지능 소프트웨어과</h1>
+    <h1>서울 정수캠퍼스</h1>
+
+</body>
+</html>
