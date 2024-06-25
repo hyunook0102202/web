@@ -8,12 +8,12 @@
         function intervalNow(){
             let now=new Date();
             obj.innerHTML=now.toString();
-            
+
         }
         let obj;
         function makeColock(){
             obj = document.getElementById("clock");
-            setinterval(intervalNow(), 1000);
+            setinterval(intervalNow(), 1000); //setinterval 함수에서 메소드명만 쓴다
 
         }
     </script>
