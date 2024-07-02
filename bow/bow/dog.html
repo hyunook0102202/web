@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="dog.css">
+    <link rel="stylesheet" href="dog.css"> 
+    
 </head>
-<body>
+<body onload = "makeClock()">
      <h1>유기견 입양 정보</h1>
      <div class="intro">
          <div class="dog">
             <img src="dog.png" alt="유기견 입양 정보">
          </div>
+         <div id="clock"></div>
+        </div>
          <div class="nation">
             <a href="https://www.animal.go.kr/front/community/show.do?boardId=contents&seq=53&menuNo=1000000058" class="font_big font_italic font_bold font_center">입양정보</a>
-         </div>
-     </div>
-     <script>
-        window.addEventListener('beforeunload', function (e) {
-            var confirmationMessage = '방문해 주셔서 감사합니다!';
-            e.returnValue = confirmationMessage; 
-            return confirmationMessage;         
-        });
-    </script>
+         
+     
 </body>
 </html>

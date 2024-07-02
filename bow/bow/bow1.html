@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="bow1.css">
+    <link rel="stylesheet" href="bow1.css"> 
 </head>
 <body>
     <!-- 제목과 버튼 -->
@@ -25,13 +25,10 @@
         <div class="intro">
             <p>동탄 바우를 소개합니다~~~!!</p>
             <div class="bow1">
-                <img src="bow3.jpg" alt="cute bow">
+                <img id="bow1234" src="bow3.jpg" alt="cute bow" onmouseover = "changeImage()" onmouseout="reImage()">
             </div>
         </div>       
     </div>
-    <script>
-        var cute = prompt('바우에게 할 말을 남겨주세요!');
-        document.write('바우에게... ' + cute);
-        </script>
+    <script src="bow.js"></script>
 </body>
 </html>
